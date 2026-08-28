@@ -1,80 +1,39 @@
 # ==========================================
-# 🎯 1. GUESS MASTER QUESTION BANK (50+ ITEMS)
+# 🎯 1. GUESS MASTER QUESTION BANK
 # ==========================================
 GUESS_DB = {
     "cricket": [
-        # IPL & Power Hitters
-        {"clue": "Fastest IPL 50 in just 13 balls & Rajasthan Royals ka explosive opener!", "answer": "yashasvi jaiswal", "display": "Yashasvi Jaiswal"},
-        {"clue": "'Universe Boss', IPL me 175* runs ka unbeatable highest individual score banaya.", "answer": "chris gayle", "display": "Chris Gayle"},
-        {"clue": "Mr. IPL ke naam se kise jaana jaata hai jo CSK ka backbone tha?", "answer": "suresh raina", "display": "Suresh Raina"},
-        {"clue": "KKR ka Caribbean all-rounder jo lambe chhakke maarta hai aur wickets leta hai.", "answer": "andre russell", "display": "Andre Russell"},
-        {"clue": "IPL history ka sabse mehenga bikne wala Australian fast bowler.", "answer": "mitchell starc", "display": "Mitchell Starc"},
-        {"clue": "CSK ka legendary finisher aur 'Lord' jo crucial matches me game badalta hai.", "answer": "shardul thakur", "display": "Shardul Thakur"},
-        {"clue": "SRH ka aggressive Australian opener aur Captain (World Cup 2023 winner captain).", "answer": "pat cummins", "display": "Pat Cummins"},
-        {"clue": "Left-handed explosive Indian opener jinhone SRH ke liye 2024 me tabahi machayi.", "answer": "abhishek sharma", "display": "Abhishek Sharma"},
-        {"clue": "Rinku Singh ne 2023 IPL me kis bowler ko lagataar 5 sixes maare the?", "answer": "yash dayal", "display": "Yash Dayal"},
-        {"clue": "GT ko debut season me IPL trophy jitane wala Indian all-rounder.", "answer": "hardik pandya", "display": "Hardik Pandya"},
-
-        # Indian Legends & Records
+        {"clue": "Fastest IPL 50 in 13 balls & Rajasthan Royals explosive opener!", "answer": "yashasvi jaiswal", "display": "Yashasvi Jaiswal"},
         {"clue": "'Captain Cool', 3 ICC Trophies & Iconic No. 7 Jersey.", "answer": "ms dhoni", "display": "MS Dhoni"},
         {"clue": "'Run Machine', 183 against Pakistan & 50 ODI centuries.", "answer": "virat kohli", "display": "Virat Kohli"},
-        {"clue": "'Hitman', ODI cricket me 3 Double Centuries banane wala player.", "answer": "rohit sharma", "display": "Rohit Sharma"},
-        {"clue": "God of Cricket jinke naam 100 international centuries ka record hai.", "answer": "sachin tendulkar", "display": "Sachin Tendulkar"},
-        {"clue": "2007 T20 World Cup me 1 over me 6 Sixes maare the Stuart Broad ko.", "answer": "yuvraj singh", "display": "Yuvraj Singh"},
-        {"clue": "'The Wall' jinki solid defense todna bowlers ke liye impossible tha.", "answer": "rahul dravid", "display": "Rahul Dravid"},
-        {"clue": "1983 World Cup winning Indian captain aur iconic all-rounder.", "answer": "kapil dev", "display": "Kapil Dev"},
-        {"clue": "Sultan of Multan (309 vs Pakistan) explosive Indian opener.", "answer": "virender sehwag", "display": "Virender Sehwag"},
-
-        # Bowling Masters & Global Stars
-        {"clue": "Yorker King jo death overs me toe-crushing yorkers daalta hai.", "answer": "jasprit bumrah", "display": "Jasprit Bumrah"},
-        {"clue": "Mr. 360 Degree batsman jo ground ke charo taraf shot maar sakta hai.", "answer": "ab de villiers", "display": "AB de Villiers"},
-        {"clue": "Afghan leg-spin wizard jo T20 me sabse fast wickets leta hai.", "answer": "rashid khan", "display": "Rashid Khan"},
-        {"clue": "Sling action bowler from Sri Lanka with iconic blond hair & yorkers.", "answer": "lasith malinga", "display": "Lasith Malinga"},
-        {"clue": "Test cricket me 800 wickets lene wala duniya ka iklauta spinner.", "answer": "muttiah muralitharan", "display": "Muttiah Muralitharan"},
-        {"clue": "Rawalpindi Express, duniya ka sabse tez balling phenkne wala pacer.", "answer": "shoaib akhtar", "display": "Shoaib Akhtar"}
+        {"clue": "'Hitman', 3 Double Centuries in ODI cricket.", "answer": "rohit sharma", "display": "Rohit Sharma"},
+        {"clue": "Universe Boss, 175* runs in a single IPL inning.", "answer": "chris gayle", "display": "Chris Gayle"},
+        {"clue": "Yorker King jo death overs me balling karta hai (MI).", "answer": "jasprit bumrah", "display": "Jasprit Bumrah"},
+        {"clue": "Mr. 360 Degree batsman in World & IPL cricket.", "answer": "ab de villiers", "display": "AB de Villiers"},
+        {"clue": "Mr. IPL ke naam se kise jaana jaata hai jo CSK ka core tha?", "answer": "suresh raina", "display": "Suresh Raina"}
     ],
     "movie": [
-        # Famous Dialogues
-        {"clue": "Dialogue: 'Mogambo khush hua!' (Movie name batao)", "answer": "mr india", "display": "Mr. India"},
+        {"clue": "Dialogue: 'Mogambo khush hua!' (Movie name)", "answer": "mr india", "display": "Mr. India"},
         {"clue": "Dialogue: 'Picture abhi baaki hai mere dost!'", "answer": "om shanti om", "display": "Om Shanti Om"},
         {"clue": "Dialogue: 'Kitne aadmi the?'", "answer": "sholay", "display": "Sholay"},
-        {"clue": "Dialogue: 'Pushpa, Pushpa Raj... Main jhukega nahi sala!'", "answer": "pushpa", "display": "Pushpa: The Rise"},
-        {"clue": "Dialogue: 'Babu Rao ka style hai!'", "answer": "phir hera pheri", "display": "Hera Pheri / Phir Hera Pheri"},
-        {"clue": "Dialogue: 'Parampara. Pratishtha. Anushasan.'", "answer": "mohabbatein", "display": "Mohabbatein"},
-        {"clue": "Dialogue: 'Why so serious?' (Famous Hollywood movie)", "answer": "the dark knight", "display": "The Dark Knight"},
-        {"clue": "Dialogue: 'Ek baar jo maine commitment kar di...'", "answer": "wanted", "display": "Wanted"},
-        {"clue": "Dialogue: 'Don ko pakadna mushkil hi nahi, naamumkin hai.'", "answer": "don", "display": "Don"},
-        {"clue": "Dialogue: 'Rishte me to hum tumhare baap lagte hain, naam hai Shahenshah.'", "answer": "shahenshah", "display": "Shahenshah"},
-
-        # Emoji & Plot Clues
-        {"clue": "Guess Movie: 🤫 🤫 🤫 (3 Engineering friends + Virus principal)", "answer": "3 idiots", "display": "3 Idiots"},
-        {"clue": "Guess Movie: 🚢 ❄️ 💔 (Jack & Rose tragic love story)", "answer": "titanic", "display": "Titanic"},
-        {"clue": "Guess Movie: 🦁 👑 🌅 (Simba, Mufasa & Pride Rock)", "answer": "lion king", "display": "The Lion King"},
-        {"clue": "Guess Movie: Space me 1 hour = Earth par 7 years (Nolan's masterpiece).", "answer": "interstellar", "display": "Interstellar"},
-        {"clue": "Guess Movie: Kattappa ne Baahubali ko kyu maara?", "answer": "baahubali", "display": "Baahubali"},
-        {"clue": "Guess Movie: 🕷️ 🕸️ 🔴 🔵 'With great power comes great responsibility.'", "answer": "spider man", "display": "Spider-Man"},
-        {"clue": "Guess Movie: Sapno ke andar enter karke secrets churana (Inception).", "answer": "inception", "display": "Inception"},
-        {"clue": "Guess Movie: 🕶️ 💊 Blue pill or Red pill? Keanu Reeves sci-fi film.", "answer": "matrix", "display": "The Matrix"}
+        {"clue": "Dialogue: 'Pushpa, Jhukega nahi sala!'", "answer": "pushpa", "display": "Pushpa"},
+        {"clue": "Dialogue: 'Why so serious?' (Joker movie)", "answer": "the dark knight", "display": "The Dark Knight"},
+        {"clue": "Guess Movie: 🤫 🤫 🤫 (3 Engineering friends + Virus)", "answer": "3 idiots", "display": "3 Idiots"},
+        {"clue": "Guess Movie: 🚢 ❄️ 💔 (Jack & Rose love story)", "answer": "titanic", "display": "Titanic"},
+        {"clue": "Guess Movie: Space me 1 hour = Earth par 7 years.", "answer": "interstellar", "display": "Interstellar"}
     ],
     "anime": [
-        {"clue": "Sapna: Hokage Banna | Power: Nine-Tails (Kurama) Jinchuriki.", "answer": "naruto", "display": "Naruto Uzumaki"},
-        {"clue": "Straw Hat Captain who ate the Gomu Gomu no Mi / Sun God Nika fruit.", "answer": "luffy", "display": "Monkey D. Luffy"},
-        {"clue": "Proud Saiyan Prince who hamesha Goku ko 'Kakarot' bulata hai.", "answer": "vegeta", "display": "Vegeta"},
-        {"clue": "Blindfolded strongest Jujutsu sorcerer with 'Limitless' and 'Six Eyes'.", "answer": "gojo", "display": "Satoru Gojo"},
-        {"clue": "Survey Corps soldier jo Beyblade ki tarah Titans ko spin karke kaat-ta hai.", "answer": "levi", "display": "Levi Ackerman"},
-        {"clue": "One Punch Man universe ka hero jo sirf ek mukke me sabko harata hai.", "answer": "saitama", "display": "Saitama"},
-        {"clue": "Uchiha jinhone apne poore clan ko sacrifice kiya Sasuke ke liye.", "answer": "itachi", "display": "Itachi Uchiha"},
-        {"clue": "Demon Slayer ka hero jiske paas Sun Breathing aur forehead par mark hai.", "answer": "tanjiro", "display": "Tanjiro Kamado"},
-        {"clue": "Shinigami Ryuk ki notebook jisme naam likhne se insaan mar jata hai.", "answer": "death note", "display": "Death Note"},
-        {"clue": "Huge walls, Cannons, Titans aur Eren Yeager ki kahani.", "answer": "attack on titan", "display": "Attack on Titan"},
-        {"clue": "7 Dragon Balls collect karke wish mangne wala classic anime.", "answer": "dragon ball z", "display": "Dragon Ball Z"},
-        {"clue": "Bankai unlock karne wala substitute Soul Reaper (Ichigo Kurosaki).", "answer": "bleach", "display": "Bleach"},
-        {"clue": "King of Curses jo Yuji Itadori ke shareer me rehta tha.", "answer": "sukuna", "display": "Ryomen Sukuna"}
+        {"clue": "Sapna: Hokage Banna | Power: Nine-Tails Jinchuriki.", "answer": "naruto", "display": "Naruto Uzumaki"},
+        {"clue": "Straw Hat Captain who wants to become King of Pirates.", "answer": "luffy", "display": "Monkey D. Luffy"},
+        {"clue": "Saiyan Prince who calls Goku 'Kakarot'.", "answer": "vegeta", "display": "Vegeta"},
+        {"clue": "Blindfolded Jujutsu Sorcerer (Limitless user).", "answer": "gojo", "display": "Satoru Gojo"},
+        {"clue": "Shinigami Notebook jisme naam likhne se log marte hain.", "answer": "death note", "display": "Death Note"},
+        {"clue": "One Punch Man universe ka hero jo ek ghuse me harata hai.", "answer": "saitama", "display": "Saitama"}
     ]
 }
 
 # ==========================================
-# 🔤 2. WORD SCRAMBLE QUESTION BANK (30+ WORDS)
+# 🔤 2. WORD SCRAMBLE & PROMPTS
 # ==========================================
 SCRAMBLE_WORDS = [
     {"scrambled": "N T H Y O P", "word": "python"},
@@ -85,141 +44,106 @@ SCRAMBLE_WORDS = [
     {"scrambled": "A C A D R E", "word": "arcade"},
     {"scrambled": "V I R A T", "word": "virat"},
     {"scrambled": "G A M I N G", "word": "gaming"},
-    {"scrambled": "D I A M O N D", "word": "diamond"},
-    {"scrambled": "B H O O T K U C", "word": "chutkule"},
-    {"scrambled": "C H A M P I O N", "word": "champion"},
-    {"scrambled": "B A T T L E", "word": "battle"},
-    {"scrambled": "M I N E C R A F T", "word": "minecraft"},
-    {"scrambled": "B H A R A T", "word": "bharat"},
-    {"scrambled": "S C I E N C E", "word": "science"},
-    {"scrambled": "C A L C U L A T O R", "word": "calculator"},
-    {"scrambled": "U N I V E R S E", "word": "universe"},
-    {"scrambled": "S H A D O W", "word": "shadow"},
-    {"scrambled": "P H Y S I C S", "word": "physics"},
-    {"scrambled": "C H E M I S T R Y", "word": "chemistry"},
-    {"scrambled": "M A T H E M A T I C S", "word": "mathematics"},
-    {"scrambled": "K A T A N A", "word": "katana"},
-    {"scrambled": "S P I D E R", "word": "spider"},
-    {"scrambled": "A V E N G E R S", "word": "avengers"},
-    {"scrambled": "D R A G O N", "word": "dragon"},
-    {"scrambled": "S H I N O B I", "word": "shinobi"}
+    {"scrambled": "D I A M O N D", "word": "diamond"}
+]
+
+# Multiplayer Elimination Prompts (Prefix & Min-length)
+WORD_BATTLE_PROMPTS = [
+    {"prefix": "Y", "min_len": 2},
+    {"prefix": "CA", "min_len": 3},
+    {"prefix": "TR", "min_len": 3},
+    {"prefix": "SH", "min_len": 4},
+    {"prefix": "PL", "min_len": 4},
+    {"prefix": "BL", "min_len": 4},
+    {"prefix": "STR", "min_len": 5},
+    {"prefix": "CON", "min_len": 5},
+    {"prefix": "PRO", "min_len": 5},
+    {"prefix": "EX", "min_len": 4}
 ]
 
 # ==========================================
-# 🧠 3. CBSE 10th PYQs & BRAIN TEASERS (30+ MCQs)
+# 🧠 3. MATHS SPEED & BRAIN LOGIC QUIZ
 # ==========================================
-QUIZ_DB = [
-    # Class 10 Science - Physics
+MATHS_BRAIN_DB = [
     {
-        "q": "Physics (Light): Focal length of a plane mirror is:",
-        "options": ["Zero", "Infinity", "25 cm", "-25 cm"],
-        "ans": 1
-    },
-    {
-        "q": "Physics (Light): Mirror used by dentists to see large images of teeth is:",
-        "options": ["Convex mirror", "Plane mirror", "Concave mirror", "Cylindrical mirror"],
-        "ans": 2
-    },
-    {
-        "q": "Physics (Electricity): The SI unit of Electric Resistivity (ρ) is:",
-        "options": ["Ohm (Ω)", "Ohm-meter (Ω·m)", "Volt", "Ampere"],
-        "ans": 1
-    },
-    {
-        "q": "Physics (Electricity): Commercial unit of electrical energy (1 kWh) in Joules is:",
-        "options": ["3.6 × 10⁵ J", "3.6 × 10⁶ J", "1000 J", "3.6 × 10⁴ J"],
-        "ans": 1
-    },
-    {
-        "q": "Physics (Human Eye): Twinkling of stars is caused by:",
-        "options": ["Atmospheric reflection", "Atmospheric refraction", "Dispersion of light", "Total internal reflection"],
-        "ans": 1
-    },
-
-    # Class 10 Science - Chemistry
-    {
-        "q": "Chemistry (Reactions): Which gas is evolved when Zinc reacts with dilute H2SO4?",
-        "options": ["Oxygen (O2)", "Carbon Dioxide (CO2)", "Hydrogen (H2)", "Nitrogen (N2)"],
-        "ans": 2
-    },
-    {
-        "q": "Chemistry (Acids & Bases): What is the chemical formula of Plaster of Paris (POP)?",
-        "options": ["CaSO4 · 2H2O", "CaSO4 · ½H2O", "CaSO4 · 5H2O", "CaCO3"],
-        "ans": 1
-    },
-    {
-        "q": "Chemistry (Metals): The only non-metal which is liquid at room temperature is:",
-        "options": ["Mercury", "Bromine", "Iodine", "Chlorine"],
-        "ans": 1
-    },
-    {
-        "q": "Chemistry (Carbon): Functional group present in Butanone (CH3-CO-CH2-CH3) is:",
-        "options": ["Alcohol", "Aldehyde", "Ketone", "Carboxylic Acid"],
-        "ans": 2
-    },
-
-    # Class 10 Mathematics
-    {
-        "q": "Maths (Trig): What is the value of (sin² 30° + cos² 30°)?",
-        "options": ["0", "1/2", "1", "2"],
-        "ans": 2
-    },
-    {
-        "q": "Maths (Trig): What is the value of (sec² θ - tan² θ)?",
-        "options": ["0", "1", "-1", "2"],
-        "ans": 1
-    },
-    {
-        "q": "Maths (AP): The 10th term of the AP: 2, 7, 12, 17... is:",
-        "options": ["45", "47", "52", "50"],
-        "ans": 1
-    },
-    {
-        "q": "Maths (AP): Common difference of AP: 3, 1, -1, -3... is:",
-        "options": ["2", "-2", "3", "-3"],
-        "ans": 1
-    },
-    {
-        "q": "Maths (Quadratic): Discriminant (D) for real and equal roots must be:",
-        "options": ["D > 0", "D < 0", "D = 0", "D ≤ 0"],
-        "ans": 2
-    },
-    {
-        "q": "Maths (Probability): Probability of an impossible event is always:",
-        "options": ["1", "0", "0.5", "-1"],
-        "ans": 1
-    },
-    {
-        "q": "Maths (Real Numbers): HCF of two consecutive even numbers is always:",
-        "options": ["1", "2", "4", "Even number itself"],
-        "ans": 1
-    },
-
-    # Brain Teasers & Logic Riddles
-    {
-        "q": "Brain Teaser: I speak without a mouth and hear without ears. What am I?",
-        "options": ["An Echo", "A Shadow", "The Wind", "A Cloud"],
+        "q": "Speed Maths: (25 × 25) - (24 × 24) = ?",
+        "options": ["49", "1", "98", "50"],
         "ans": 0
     },
     {
-        "q": "Brain Teaser: What has to be broken before you can use it?",
-        "options": ["A Lock", "An Egg", "A Secret", "Glass"],
+        "q": "Algebra Trick: If x + 1/x = 3, then what is x² + 1/x²?",
+        "options": ["9", "7", "11", "6"],
         "ans": 1
     },
     {
-        "q": "Brain Teaser: What has hands but cannot clap?",
-        "options": ["A Clock", "A Robot", "A Tree", "A Mirror"],
+        "q": "Trigonometry: Value of (sin 30° + cos 60°) is:",
+        "options": ["1/2", "1", "√3", "0"],
+        "ans": 1
+    },
+    {
+        "q": "Mental Maths: What is 15% of 240?",
+        "options": ["32", "36", "40", "24"],
+        "ans": 1
+    },
+    {
+        "q": "Arithmetic: 7 + 7 ÷ 7 + 7 × 7 - 7 = ?",
+        "options": ["50", "56", "0", "49"],
         "ans": 0
     },
     {
-        "q": "Brain Teaser: What gets wetter the more it dries?",
-        "options": ["Sponge", "A Towel", "Water", "Soap"],
+        "q": "Brain Teaser: I have branches, but no fruit, trunk or leaves. What am I?",
+        "options": ["A River", "A Bank", "A Mountain", "A Tree"],
         "ans": 1
     },
     {
-        "q": "Brain Teaser: What goes up but never comes down?",
-        "options": ["A Kite", "Your Age", "Smoke", "An Airplane"],
-        "ans": 1
+        "q": "Logic: If 1=3, 2=3, 3=5, 4=4, 5=4, then 6=?",
+        "options": ["3 (number of letters in 'SIX')", "6", "4", "5"],
+        "ans": 0
+    },
+    {
+        "q": "Brain Riddle: What has to be broken before you can use it?",
+        "options": ["An Egg", "A Lock", "A Secret", "Glass"],
+        "ans": 0
+    },
+    {
+        "q": "Brain Riddle: What gets wetter the more it dries?",
+        "options": ["A Towel", "Sponge", "Soap", "Cloud"],
+        "ans": 0
+    },
+    {
+        "q": "Logic Puzzle: A doctor gives you 3 pills to take 1 every 30 mins. How long do they last?",
+        "options": ["60 Minutes", "90 Minutes", "30 Minutes", "120 Minutes"],
+        "ans": 0
     }
 ]
 
+# ==========================================
+# 🔢 4. BINGO TAMBOLA CALLOUTS (1-25)
+# ==========================================
+BINGO_CALLS = {
+    1: "Top of the world / Ek Number! 🥇",
+    2: "Kaala Teeka / Jodi No. 1 ✌️",
+    3: "Three Musketeers / Teen Tigada 🔱",
+    4: "Char Minar / Four Corners 🏛️",
+    5: "High Five / Panch Pandav ✋",
+    6: "Super Sixer 🏏",
+    7: "Thala for a reason / Lucky 7 👑",
+    8: "Canteen plate / Infinite loop ♾️",
+    9: "Navratri Special 🪔",
+    10: "Sachin No. 10 / Dus ka Dum 🔟",
+    11: "Two sticks / Eleven Stars 🥢",
+    12: "One Dozen / Ek Barah 🥚",
+    13: "Unlucky for some, Lucky for us! 🃏",
+    14: "Valentine Special ❤️",
+    15: "Independence Spirit 🇮🇳",
+    16: "Sweet Sixteen 🎂",
+    17: "Dancing Queen 💃",
+    18: "Voting Age / Virat jersey no. 18 🏏",
+    19: "Last of the teens 🚀",
+    20: "T20 Cricket Mania 🏟️",
+    21: "Royal salute / Ek kiss 💋",
+    22: "Two Little Ducks 🦆🦆",
+    23: "Michael Jordan jump 🏀",
+    24: "Two dozen / Full day hours ⏰",
+    25: "Silver Jubilee Winner! 🥈"
+}
